@@ -1,5 +1,5 @@
 {
-  "name": "deo-platform",
+  "name": "player-owned-leagues",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,5 +29,15 @@
     "prettier-plugin-solidity": "^1.0.0-beta.13",
     "solhint": "^3.3.6",
     "solidity-coverage": "^0.7.17"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
+    "@chainlink/token": "^1.1.0",
+    "@openzeppelin/contracts": "^4.3.2",
+    "base64-sol": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "global": "^4.4.0",
+    "hardhat-deploy": "^0.9.4",
+    "hardhat-shorthand": "^1.0.0"
   }
 }
